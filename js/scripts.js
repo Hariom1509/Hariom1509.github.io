@@ -38,3 +38,12 @@ function make_me_dark() {
   var element = document.body;
   element.classList.toggle("dark-mode");
 }
+
+function removeLoader(){
+  
+  setTimeout(()=>{
+    let loader = document.getElementById('loader');
+  
+    // hide the loader
+    loader.style = 'display: none;';},2500);  
+}
