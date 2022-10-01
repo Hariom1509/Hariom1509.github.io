@@ -10540,3 +10540,27 @@ body {
   border-radius: 50%;
   animation: spin .5s linear 0s infinite;
 }
+
+#loader {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  min-height: 100vh;
+  padding: 0;
+  margin: 0;
+  z-index: 99999;  
+  background: #edf2e6
+}
+
+#loader p {  
+  text-align: center;
+  color: #fff;
+  font-weight: bold;
+  font-size: 100px;
+  /* padding: 0;
+  margin: 0; */
+}
