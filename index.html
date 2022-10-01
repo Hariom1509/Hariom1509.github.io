@@ -15,17 +15,37 @@
   <link href="https://fonts.googleapis.com/css2?family=Lato:wght@900&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Saira+Extra+Condensed:500,700" rel="stylesheet" type="text/css" />
   <link href="https://fonts.googleapis.com/css?family=Muli:400,400i,800,800i" rel="stylesheet" type="text/css" />
+  <link href="https://fonts.googleapis.com/css2?family=Satisfy&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
 
   <!-- CSS (includes Bootstrap), you can also add bootstrap by cdn like JS is added at bottom-->
   <link href="css/styles.css" rel="stylesheet" />
 </head>
 
-<body id="page-top" style="background-color: #edf2e6;">
+<body id="page-top" style="background-color: #edf2e6;" onload="removeLoader();">
   <!-- Navbar (appears at top of your webpage)-->
+      <div id="loader">
+          <div class="spinner-box">
+            <div class="solar-system">
+              <div class="earth-orbit orbit">
+                <div class="planet earth"></div>
+                <div class="venus-orbit orbit">
+                  <div class="planet venus"></div>
+                  <div class="mercury-orbit orbit">
+                    <div class="planet mercury"></div>
+                    <div class="sun"></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <br>
+          </div>
+        <br />
+    </div>
 
   <nav class="navbar navbar-expand-lg navbar-dark fixed-top" style="background-color:#5CDB95" id="sideNav">
     <a class="navbar-brand js-scroll-trigger" href="#page-top">
-      <span class="d-block d-lg-none"><span  style="color:#05386B">Hariom</span> Vyas</span>
+      <span class="d-block d-lg-none" style = "font-family: Great Vibes;"><span  style="color:#05386B;font-family: Great Vibes;">Hariom</span> Vyas</span>
 
     </a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span
@@ -54,16 +74,15 @@
     <!-- About-->
     <section class="resume-section" id="about">
       <div class="resume-section-content">
-        <h1 class="mb-0 text-center" style="color:#05386B">
-          <span style="color:#5CDB95">Hariom</span>
+        <h1 class="mb-0 text-center" style="color:#05386B;font-family: Roboto; font-size: 80px;letter-spacing: 15px;">
+          <span style="color:#5CDB95;font-family: Roboto;letter-spacing: 15px;">Hariom</span>
           Vyas
         </h1>
         <br>
         <p class="lead mb-5 text-center">
-          <span style = "color:#05386B" ><i class="fas fa-map-marker-alt"></i>Vadodara, Gujarat<span>
+          <span style = "color:#05386B; font-size: 18px;" ><i class="fas fa-map-marker-alt" style="font-size: 1.73em;"></i>&nbsp;&nbsp;Vadodara, Gujarat<span>
           </p>
-        <br>
-        <p class="lead mb-5 text-center" style="color:#379683">
+        <p class="lead mb-5 text-center text-bold" style="color:#379683;font-family: Roboto;font-size: 20px;">
         Final year student  @ National Institute of Technology, Surat. <br> 
         SWE Intern'22 @ Wells Fargo. <br>
         Full Stack Software Developer. <br>
@@ -105,23 +124,16 @@
           <div class="flex-grow-1">
             <img src="img/rosary.jpeg" width="40px">
             <h3 class="mb-0" style="color:#05386B">Rosary High School, Vadodara</h3>
-            <div class="subheading mb-3">GSEB 12<sup>th</sup></div>
+            <div class="subheading mb-3">CLASS 12<sup>th</sup></div>
             <p>Percentage : 87.23 %</p>
+            <div class="subheading mb-3">GSEB 10<sup>th</sup></div>
+            <p>Percentage : 92 %</p>
           </div>
-          <div class="flex-shrink-0"><span class="text-primary">06/2018 - 05/2019</span></div>
+          <div class="flex-shrink-0"><span class="text-primary">06/2016 - 05/2019</span></div>
         </div>
 
         <br>
 
-        <div class="d-flex flex-column flex-md-row justify-content-between">
-          <div class="flex-grow-1">
-            <img src="img/rosary.jpeg" width="40px">
-            <h3 class="mb-0" style="color:#05386B">Rosary High School, Vadodara</h3>
-            <div class="subheading mb-3">GSEB 10<sup>th</sup></div>
-            <p>Percentage : 92 %</p>
-          </div>
-          <div class="flex-shrink-0"><span class="text-primary">06/2016 - 05/2017</span></div>
-        </div>
 
       </div>
     </section>
