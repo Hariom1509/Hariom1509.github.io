@@ -45,5 +45,5 @@ function removeLoader(){
     let loader = document.getElementById('loader');
   
     // hide the loader
-    loader.style = 'display: none;';},2500);  
+    loader.style = 'display: none;';},1000);  
 }
